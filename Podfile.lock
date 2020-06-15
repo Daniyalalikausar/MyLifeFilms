@@ -1,0 +1,46 @@
+PODS:
+  - Alamofire (5.0.2)
+  - DGActivityIndicatorView (2.1.1)
+  - IQKeyboardManagerSwift (6.5.5)
+  - ReachabilitySwift (5.0.0)
+  - Realm (4.3.2):
+    - Realm/Headers (= 4.3.2)
+  - Realm/Headers (4.3.2)
+  - RealmSwift (4.3.2):
+    - Realm (= 4.3.2)
+  - SwiftyGif (5.2.0)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - DGActivityIndicatorView
+  - IQKeyboardManagerSwift
+  - ReachabilitySwift
+  - RealmSwift
+  - SwiftyGif
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - DGActivityIndicatorView
+    - IQKeyboardManagerSwift
+    - ReachabilitySwift
+    - Realm
+    - RealmSwift
+    - SwiftyGif
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 3ba7a4db18b4f62c4a1c0e1cb39d7f3d52e10ada
+  DGActivityIndicatorView: ff2c76073d79692f724863c8dd38685866a03cb6
+  IQKeyboardManagerSwift: 0fb93310284665245591f50f7a5e38de615960b7
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  Realm: 5e92902e2875dff4bb0fd02f67bb737c3d5db2bc
+  RealmSwift: 9a360fc7bae04fc2e308a34fbd899d5faa2d6b22
+  SwiftyGif: b85c6b33a9411859d9e1db998b6a8214aea942df
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: d75529a3461fdeebe5405f4bd917980882d6d345
+
+COCOAPODS: 1.6.1

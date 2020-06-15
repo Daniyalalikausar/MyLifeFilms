@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="O3U-9b-eK8">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--SplashVC-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <viewController id="BYZ-38-t0r" customClass="SplashVC" customModule="MyLifeFlims" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.0" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MCH logo 3" translatesAutoresizingMaskIntoConstraints="NO" id="b2T-1I-11d">
+                                <rect key="frame" x="50.5" y="221.5" width="219" height="47"/>
+                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.0" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bRV-O8-w1x">
+                                <rect key="frame" x="140" y="434.5" width="160" height="113.5"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="ECo-Uq-ZvY">
+                                <rect key="frame" x="32" y="178" width="256" height="256"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Transforming the  lives of people affected by Dementia,  by capturing their unique story in a ">
+                                        <attributes>
+                                            <font key="NSFont" size="50" name="Verdana"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="free">
+                                        <attributes>
+                                            <font key="NSFont" size="50" name="Verdana"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            <integer key="NSUnderline" value="1"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" film">
+                                        <attributes>
+                                            <font key="NSFont" size="50" name="Verdana"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="ECo-Uq-ZvY" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="3UF-xM-dwc"/>
+                            <constraint firstItem="bRV-O8-w1x" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.5" id="3sM-PX-Zmc"/>
+                            <constraint firstItem="b2T-1I-11d" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" multiplier="0.8" id="7W2-km-nfz"/>
+                            <constraint firstItem="bRV-O8-w1x" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.2" id="GZJ-iG-RpU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="bRV-O8-w1x" secondAttribute="bottom" constant="20" id="YxU-Oj-yKK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bRV-O8-w1x" secondAttribute="trailing" constant="20" id="ZdZ-HW-dVi"/>
+                            <constraint firstItem="ECo-Uq-ZvY" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.8" id="p5g-JG-KGt"/>
+                            <constraint firstItem="ECo-Uq-ZvY" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="teJ-0q-zgL"/>
+                            <constraint firstItem="ECo-Uq-ZvY" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.45" id="v1e-Tb-pmk"/>
+                            <constraint firstItem="b2T-1I-11d" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="wV8-9O-32Y"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Tuf-tO-14z"/>
+                    <connections>
+                        <outlet property="imgHeart" destination="bRV-O8-w1x" id="D6W-Mr-Kn5"/>
+                        <outlet property="imgLogo" destination="b2T-1I-11d" id="UsV-5l-wda"/>
+                        <outlet property="lblCenter" destination="ECo-Uq-ZvY" id="vAE-y5-8Ed"/>
+                        <outlet property="logoYConstraint" destination="7W2-km-nfz" id="f8u-ae-HFz"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="-349" y="68"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="QbH-u8-u7Q">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7ZJ-Fh-9r7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <navigationController id="O3U-9b-eK8" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="jVN-ra-FOq">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Rdd-Nk-u0n"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="-1401" y="68"/>
+        </scene>
+        <!--LoginVC-->
+        <scene sceneID="hvV-eO-qK6">
+            <objects>
+                <viewController storyboardIdentifier="loginVC_ID" useStoryboardIdentifierAsRestorationIdentifier="YES" id="id3-ZU-x5x" customClass="LoginVC" customModule="MyLifeFlims" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QlV-9k-JkB">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="solid layer" translatesAutoresizingMaskIntoConstraints="NO" id="36Q-36-OqJ">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MCH logo 3" translatesAutoresizingMaskIntoConstraints="NO" id="hVe-nO-WOD">
+                                <rect key="frame" x="50.5" y="76" width="219" height="47"/>
+                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pIE-PX-SvD">
+                                <rect key="frame" x="20" y="488" width="280" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="0Ct-1d-n8k"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="76z-cr-1sT" customClass="CustomButton" customModule="MyLifeFlims" customModuleProvider="target">
+                                <rect key="frame" x="48" y="408" width="224" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="uZo-y7-51p"/>
+                                </constraints>
+                                <state key="normal" title="Share Photos">
+                                    <color key="titleColor" red="0.066666666666666666" green="0.53725490196078429" blue="0.83137254901960778" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nWf-83-a75" customClass="CustomButton" customModule="MyLifeFlims" customModuleProvider="target">
+                                <rect key="frame" x="48" y="328" width="224" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="4le-FD-Ffn"/>
+                                </constraints>
+                                <state key="normal" title="Make my Film">
+                                    <color key="titleColor" red="0.066666666666666666" green="0.53725490196078429" blue="0.83137254901960778" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="pIE-PX-SvD" firstAttribute="leading" secondItem="XE2-6f-3vK" secondAttribute="leading" constant="20" id="25D-6F-vml"/>
+                            <constraint firstItem="76z-cr-1sT" firstAttribute="top" secondItem="nWf-83-a75" secondAttribute="bottom" constant="30" id="CGG-RQ-FWc"/>
+                            <constraint firstItem="XE2-6f-3vK" firstAttribute="bottom" secondItem="pIE-PX-SvD" secondAttribute="bottom" constant="30" id="DbS-0x-q7p"/>
+                            <constraint firstItem="XE2-6f-3vK" firstAttribute="trailing" secondItem="pIE-PX-SvD" secondAttribute="trailing" constant="20" id="ECx-ch-lav"/>
+                            <constraint firstItem="nWf-83-a75" firstAttribute="centerX" secondItem="36Q-36-OqJ" secondAttribute="centerX" id="G77-kx-m7l"/>
+                            <constraint firstItem="nWf-83-a75" firstAttribute="width" secondItem="76z-cr-1sT" secondAttribute="width" id="K48-k8-etK"/>
+                            <constraint firstItem="36Q-36-OqJ" firstAttribute="top" secondItem="QlV-9k-JkB" secondAttribute="top" id="KC8-j9-vSM"/>
+                            <constraint firstItem="pIE-PX-SvD" firstAttribute="top" secondItem="76z-cr-1sT" secondAttribute="bottom" constant="30" id="Sv2-sQ-Tg8"/>
+                            <constraint firstItem="36Q-36-OqJ" firstAttribute="leading" secondItem="QlV-9k-JkB" secondAttribute="leading" id="X2m-nn-GYl"/>
+                            <constraint firstAttribute="trailing" secondItem="36Q-36-OqJ" secondAttribute="trailing" id="ZzB-57-lPR"/>
+                            <constraint firstItem="hVe-nO-WOD" firstAttribute="centerX" secondItem="36Q-36-OqJ" secondAttribute="centerX" id="aCH-aO-Fqz"/>
+                            <constraint firstItem="76z-cr-1sT" firstAttribute="centerX" secondItem="36Q-36-OqJ" secondAttribute="centerX" id="f1s-H8-d48"/>
+                            <constraint firstItem="76z-cr-1sT" firstAttribute="width" secondItem="36Q-36-OqJ" secondAttribute="width" multiplier="0.7" id="gsA-tF-gFN"/>
+                            <constraint firstAttribute="bottom" secondItem="36Q-36-OqJ" secondAttribute="bottom" id="uOr-zB-4sT"/>
+                            <constraint firstItem="hVe-nO-WOD" firstAttribute="centerY" secondItem="36Q-36-OqJ" secondAttribute="centerY" multiplier="0.35" id="ya9-yY-W6G"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="XE2-6f-3vK"/>
+                    </view>
+                    <connections>
+                        <outlet property="btnFlim" destination="nWf-83-a75" id="sNq-cF-h6C"/>
+                        <outlet property="btnPhoto" destination="76z-cr-1sT" id="A9P-xF-WcQ"/>
+                        <outlet property="imgBG" destination="36Q-36-OqJ" id="4uX-Mm-ogK"/>
+                        <outlet property="lblBottom" destination="pIE-PX-SvD" id="ChH-dP-HvW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="R7P-Yq-9Sp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="625" y="68"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="MCH logo 3" width="219" height="47"/>
+        <image name="solid layer" width="375" height="810"/>
+    </resources>
+</document>
